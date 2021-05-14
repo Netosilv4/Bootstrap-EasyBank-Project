@@ -1,0 +1,93 @@
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+  padding-top: 60px;
+}
+
+p {
+  color: hsl(233, 8%, 62%);
+  font-weight: 500;
+}
+
+.col h1 {
+  font-size: 20px;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+.first-container {
+  overflow: hidden;
+}
+
+.second-div {
+  background-image: url(/images/bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-div {
+  margin: auto 0;
+  padding-left: 8%;
+}
+.first-div h1 {
+  font-size: 40px;
+}
+
+.footer {
+  background-color: hsl(233, 26%, 24%);
+}
+
+.footer a {
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+
+.footer a:hover {
+  color: green;
+}
+
+.footer p {
+  font-size: 13px;
+}
+
+.icon-container, .copy-right {
+  padding-top: 20%;
+}
+
+.btn-invite {
+  color: white;
+  background: linear-gradient(90deg, rgba(49,211,92,1) 35%, rgba(43,183,218,1) 65%);
+  margin: 0;
+  border: 0;
+  padding: .4rem 1.5rem;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.btn-invite:hover {
+  background: rgba(49,211,92,1) 35%;
+}
+
+.btn-menu {
+  display: none;
+}
+
+/*Desktop Media */
+
+@media (min-width: 768px) {
+  .phones {
+    transform: translate(10%, -10%);
+    }
+
+  .first-div {
+    order: -1;
+  }
+
+  .btn-menu {
+    display: flex;
+    width: 40%;
+  }
+}
